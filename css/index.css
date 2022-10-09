@@ -1,0 +1,147 @@
+@font-face {
+  src: url('../fonts/Nunito_Sans/NunitoSans-Regular.ttf');
+  font-family: "NunitoSans Regular";
+}
+
+@font-face {
+  src: url('../fonts/Yeseva_One/YesevaOne-Regular.ttf');
+  font-family: "YesevaOne Regular";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  font-family:'NunitoSans Regular', 'Courier New', Courier, monospace;
+}
+
+.button{
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  padding: 13px 33px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  font-family:'NunitoSans Regular', 'Courier New', Courier, monospace;
+}
+
+.container{
+  max-width: 1256px;
+  margin: 0 auto;
+}
+
+.header-navigation{
+  list-style: none;
+  display: flex;
+}
+
+.header-navigation__item{
+  margin-right: 47px;
+}
+
+.header-navigation__item a{
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.logo{
+  color:#E3B873;
+}
+
+.header{
+  background-color: black;  
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  height: 83px;
+  align-items: center;
+}
+
+/*для 1 блока main*/
+.turnkey{
+  background-image: url('../files/image_4_3.jpg');
+  background-size: cover;
+  height: 707px;
+  padding-top: 194px;
+  padding-left: 134px;
+  padding-right: 630px;
+  position: relative;
+}
+
+.title{
+  margin: 0;
+  font-family: 'YesevaOne Regular','Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.turnkey-overlay{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.turnkey-container{
+  position: relative;
+  z-index: 1;
+}
+
+.turnkey-text{
+  font-family: 'NunitoSans Regular','Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFFFFF;
+  padding-top: 19px;
+  padding-left: 0px;
+  padding-right: 170px;
+}
+
+.button-turnkey{
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;  
+}
+
+.button-turnkey_on{
+  padding: 19px 41px;
+  background: #E3B873;
+  border: 0;
+}
+
+.button-turnkey_off{
+  padding: 19px 21px;
+  margin-left: 20px;
+  background: none;
+  border: 1px solid #FFFFFF;
+}
+
+.text-yellow{
+  color: #E3B873;
+}
