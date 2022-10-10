@@ -256,3 +256,13 @@ body {
 .item-5{
   padding-top: 60px;
 }
+
+.control{  
+  background-size: cover;
+  height: 1074px;
+  padding-left: 50%;
+  position: relative;
+  margin-top: -300px;
+  margin-left: -400px;
+  margin-right: 400px;
+}
