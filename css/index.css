@@ -147,7 +147,7 @@ body {
   color: #E3B873;
 }
 
-/*для 1 блока project*/
+/*для 2 блока project*/
 .project{
   background-color: #131313;
   background-size: cover;
@@ -167,7 +167,9 @@ body {
 .project-container-right{
   background-image: url('../files/image_2_1.png');
   height: 483px;
-  width: 679px;  
+  width: 679px;    
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .project-container-left{
@@ -257,12 +259,207 @@ body {
   padding-top: 60px;
 }
 
+/*для 3 блока control*/
 .control{  
-  background-size: cover;
   height: 1074px;
   padding-left: 50%;
   position: relative;
   margin-top: -300px;
-  margin-left: -400px;
-  margin-right: 400px;
+  margin-left: -410px;
+  margin-right: 410px;
+}
+
+.title-control{
+  margin: 0;
+  font-family: 'YesevaOne Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.image_control{
+  padding-bottom: 80px;
+  text-align: center;
+  background-image: url('../files/figure1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.control_block2{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-image: url('../files/image_6.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 434px; 
+}
+
+.image_block2{
+  padding-top: 65px;
+}
+
+.control_block3{
+  padding-left: 80px;
+  padding-right: 80px;  
+}
+
+.title_block3{
+  text-align: center;
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+  color: #363636;
+  padding-bottom: 92px;
+}
+
+.image_block3{
+  padding-bottom: 120px;
+  text-align: center;
+  background-image: url('../files/figure2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.control-overlay{
+  height: 434px; 
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: -295px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.flex_control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text-flex-p{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;  
+  color: rgba(54, 54, 54, 0.5); 
+  margin-bottom: -3px;  
+}
+
+.text-flex{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636; 
+}
+
+.text-checkbox{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 163.68%;
+  /* or 23px */
+  color: #181818;
+}
+
+.image-flex{
+  padding-bottom: 12px;
+  text-align: center;
+  background-image: url('../files/figure4.png');
+  background-repeat: no-repeat;  
+}
+
+.checkbox{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.input-checkbox{
+  height: 45px;
+  width: 45px;  
+  background-color: #E3B873;
+}
+
+input{
+  height: 18px;
+  width: 18px;  
+  background-color: #E3B873;
+}
+
+.checkbox input:checked{
+  background-color: #E3B873;
+}
+
+.button-flex{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 20px 75px;
+  background-color: #E3B873;
+  border: 0;
+}
+
+/**/
+.repair_block2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 706px;
+  padding-top: 148px;
+  padding-left: 103px;
+  padding-right: 101px;
+}
+
+.repair_block2_item{
+  width: 392px;
+  height: 421px;
+}
+
+.repair_block2_item1{
+  text-align: center;
+  background-image: url('../files/image.jpg');
+  background-repeat: no-repeat;  
+}
+
+.repair_block2_item2{
+  text-align: center;
+  background-image: url('../files/image_3.jpg');
+  background-repeat: no-repeat;  
+}
+
+.repair_block2_item3{
+  text-align: center;
+  background-image: url('../files/image_3_1.jpg');
+  background-repeat: no-repeat;  
+}
+
+.repair_block3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 286px;
+  margin-top: -255px;
+  padding-left: 134px;
+  padding-right: 132px;  
+}
+
+.repair_block3_item{
+  background-color: #ffffff;
+  height: 286px;
+  width: 330px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 }
