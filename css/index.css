@@ -378,25 +378,36 @@ body {
   background-repeat: no-repeat;  
 }
 
-.checkbox{
+.first-checkbox{
   padding-top: 20px;
   text-align: center;
 }
 
-.input-checkbox{
-  height: 45px;
-  width: 45px;  
-  background-color: #E3B873;
+.label {
+  cursor: pointer;
 }
 
-input{
+.checkbox{
+  display: none;
+}
+
+.fake{
+  display: inline-flex;
+  width: 18px;
   height: 18px;
-  width: 18px;  
-  background-color: #E3B873;
+  background: #E3B873;
+  color: #fff;
+  justify-content: center;
 }
 
-.checkbox input:checked{
-  background-color: #E3B873;
+.fake::before{
+  content:"\2714";
+  opacity: 0;
+  transition: .2s;
+}
+
+.checkbox:checked + .fake::before{
+  opacity: 1;
 }
 
 .button-flex{
@@ -413,13 +424,28 @@ input{
   border: 0;
 }
 
+.repair_block1_p{
+  font-family: 'YesevaOne Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;  
+  color: #181818;
+  text-align: center;
+  padding-top: 120px;
+}  
+.repair_block1_img{
+  text-align: center;
+}
 /**/
 .repair_block2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 706px;
-  padding-top: 148px;
+  padding-top: 30px;
   padding-left: 103px;
   padding-right: 101px;
 }
@@ -446,13 +472,13 @@ input{
   background-image: url('../files/image_3_1.jpg');
   background-repeat: no-repeat;  
 }
-
+/**/
 .repair_block3{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 286px;
-  margin-top: -255px;
+  margin-top: -380px;
   padding-left: 134px;
   padding-right: 132px;  
 }
@@ -462,4 +488,45 @@ input{
   height: 286px;
   width: 330px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  padding-left: 20px;
+}
+
+.repair_block3_item_p{
+  padding-left: 20px;
+  font-family: 'YesevaOne Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;  
+  color: #363636;
+}
+.repair_block3_item_li{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 27px;
+  color: #959595; 
+}
+
+.repair_block4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -20px;
+  padding-left: 134px;
+  padding-right: 132px;  
+}
+
+.button_repair_block4{
+  padding: 17px 22px; 
+  background: #E3B873;
+  border: 0;
+  font-family: 'YesevaOne Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
