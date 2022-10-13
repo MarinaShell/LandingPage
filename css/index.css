@@ -71,7 +71,7 @@ body {
   align-items: center;
 }
 
-/*для 1 блока home*/
+/******************для 1 блока home*******************************************/
 .home{
   background-image: url('../files/image_4_3.jpg');
   background-size: cover;
@@ -147,7 +147,7 @@ body {
   color: #E3B873;
 }
 
-/*для 2 блока project*/
+/******************для 2 блока project****************************************/
 .project{
   background-color: #131313;
   background-size: cover;
@@ -259,7 +259,7 @@ body {
   padding-top: 60px;
 }
 
-/*для 3 блока control*/
+/******************для 3 блока control****************************************/
 .control{  
   height: 1074px;
   padding-left: 50%;
@@ -419,7 +419,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
-  padding: 20px 75px;
+  padding: 10px 75px;
   background-color: #E3B873;
   border: 0;
 }
@@ -529,4 +529,143 @@ body {
   line-height: 25px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.repair{
+  padding-left: 101px;
+  padding-right: 103px;
+}
+
+/******************для 4 блока measure****************************************/
+.measure{  
+  height: 726px;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 200px;
+  position: relative;
+}
+
+.measure_block1{
+  text-align: center;
+  background-image: url('../files/image8.png');
+  background-repeat: no-repeat;  
+  background-size: auto;
+  background-position: center;
+  height: 645px;
+  padding-left: 400px;
+  padding-right: 75px;
+  padding-top: 117px;
+  padding-bottom: 54px;
+}
+
+.measure_block2{
+  background-color: #131313;
+  background-size: auto;
+  background-position: center;
+  height: 509px;
+  padding-left: 40px;
+  padding-right: 75px;
+  padding-top: 35px;
+  padding-bottom: 54px;
+}
+
+.measure_block1_li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.measure_block1_li_text{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #363636; 
+}
+
+.measure_block1_lu{
+  list-style: none;     
+}
+
+.item_measure{
+  padding-bottom: 22px;
+}
+
+.measure_block1_li_img{
+  background-image: url('../files/figure6.png');
+  background-repeat: no-repeat;  
+  background-size: auto;
+  background-position: center;
+  height: 42px;
+  width: 42px;  
+}
+
+.measure_block1_li_img_text{
+  font-family: 'YesevaOne Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;   
+}
+
+.measure-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 725px;
+}
+
+.text_flex_p_measure{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;  
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;  
+}
+
+.text_flex_measure{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: white; 
+}
+
+.measure_block2_text{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.button_flex_measure{
+  font-family: 'NunitoSans Regular';  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;  
+  color: #FFFFFF;
+  padding: 10px 25px;
+  background-color: #E3B873;
+  border: 0;
+}
+
+.button_flex_measure_div{
+  padding-top: 20px;
+  text-align: right;
 }
