@@ -17,12 +17,12 @@
           </div>
           <nav>
               <ul class="header-navigation">
-                <li class="header-navigation__item"><a href="#">HOME</a></li>
-                <li class="header-navigation__item"><a href="#">PROJECTS</a></li>
-                <li class="header-navigation__item"><a href="#">MEASUREMENT</a></li>
-                <li class="header-navigation__item"><a href="#">TEAM</a></li>
-                <li class="header-navigation__item"><a href="#">REVIEWS</a></li>
-                <li class="header-navigation__item"><a href="#">CONTACTS</a></li>
+                <li class="header-navigation__item"><a href="#home">HOME</a></li>
+                <li class="header-navigation__item"><a href="#project">PROJECTS</a></li>
+                <li class="header-navigation__item"><a href="#measure">MEASUREMENT</a></li>
+                <li class="header-navigation__item"><a href="#team">TEAM</a></li>
+                <li class="header-navigation__item"><a href="#reviews">REVIEWS</a></li>
+                <li class="header-navigation__item"><a href="#contacts">CONTACTS</a></li>
               </ul>
           </nav>
           <div class="logo">+7 (928) 768-32-39</div>
@@ -33,7 +33,7 @@
     <main>
      
       <!----------------------------блок 1 home--------------------->
-      <section class = "home">
+      <section class = "home" id ="home">
         <div class="container home-container">
           <h1 class = "title">
             Turnkey Repair in the city of <span class="text-yellow">Rostov-on-Don</span>
@@ -59,7 +59,7 @@
 
 
       <!--------------------------блок 2 project----------------------->
-      <section class = "project">
+      <section class = "project" id ="project">
         <!--навигация-->
         
         <nav>
@@ -141,13 +141,13 @@
         <div class="flex_control">
           <div class="item-1">
             <p class="text-flex-p">Name</p>
-            <span class="text-flex">What is your name:</span>
+            <input class="text-flex" value = "What is your name:">
             <div class="line">
             </div>
           </div>
           <div class="item-2">
             <p class="text-flex-p">Phone</p>
-            <span class="text-flex">Your phone number:</span> 
+            <input class="text-flex" type = "tel" value= "Your phone number:">
             <div class="line">
             </div>           
           </div>          
@@ -165,7 +165,7 @@
         </section>
 
 <!-----------------------блок 4 repair---------------------->
-      <section class = "repair">
+      <section class = "repair" id ="team">
         <div class="repair_block1">
           <p class="repair_block1_p">TYPES OF REPAIR</p>
           <div class="repair_block1_img">
@@ -243,7 +243,7 @@
         </div>
       </section>
 <!-----------------------блок 5 measure---------------------->
-      <section class = "measure">
+      <section class = "measure" id = "measure">
         <div class = "measure-container">
           <div class="measure_block1">
             <ul class="measure_block1_lu">
@@ -298,19 +298,19 @@
             <div class="flex_measure">
               <div class="item_measure">
                 <p class="text_flex_p_measure">Name</p>
-                <span class="text_flex_measure">What is your name:</span>
+                <input class="text_flex_measure" value="What is your name:">
                 <div class="line2">
                 </div>
               </div>
               <div class="item_measure">
                 <p class="text_flex_p_measure">Phone</p>
-                <span class="text_flex_measure">Your phone number:</span> 
+                <input class="text_flex_measure" type = "tel" value="Your phone number:"> 
                 <div class="line2">
                 </div>           
               </div>   
               <div class="item_measure">
                 <p class="text_flex_p_measure">Email</p>
-                <span class="text_flex_measure">Your email</span> 
+                <input class="text_flex_measure" type = "email" value="Your email:">
                 <div class="line2">
                 </div>           
               </div>    
@@ -338,7 +338,7 @@
       </div>
    
 <!-----------------------блок 6 reviews---------------------->
-    <section class = "reviews">
+    <section class = "reviews" id = "reviews">
     <div class = "container_reviews">
     
         <div class="reviews_block1">
@@ -558,7 +558,7 @@
         </div>
     </section>
 <!-----------------------блок 9 contacts---------------------->
-    <section class="contacts">
+    <section class="contacts" id = "contacts">
         <div class="container-contacts">
             <div class="contacts_block1">
               Rostov-on-Don, Nansen St., 239 Shopping Center
@@ -592,13 +592,13 @@
                     <div class="questions_block2_flex">
                         <div class="item_measure">
                             <p class="text_flex_p_measure">Name</p>
-                            <span class="text_flex_measure">What is your name:</span>
+                            <input class="text_flex_measure questions_input" value = "What is your name:">
                             <div class="line2">
                             </div>
                           </div>
                           <div class="item_measure">
                             <p class="text_flex_p_measure">Phone</p>
-                            <span class="text_flex_measure">Your phone number:</span> 
+                            <input class="text_flex_measure questions_input" type = "tel" value = "Your phone number:">
                             <div class="line2">
                             </div>           
                           </div>   
@@ -606,7 +606,7 @@
                     </div>        
                     <div class="item_measure">
                         <p class="text_flex_p_measure">Email</p>
-                        <span class="text_flex_measure">Your email</span> 
+                        <input class="text_flex_measure questions_input" type = "email" value = "Your email:"> 
                         <div class="line2">
                         </div>           
                       </div>                       
