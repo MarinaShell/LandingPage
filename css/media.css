@@ -1,3 +1,9 @@
+@media screen and (min-width: 1300px) {
+    .contacts_mobile{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .repair_block2 {
         flex-direction: column;
@@ -11,7 +17,7 @@
         align-items: center;
         height: 1490px;        
         padding-left: 0px;
-        padding-right: 0px;  
+        padding-right: 0px;         
     }
 
     .repair_block4 {
@@ -33,4 +39,82 @@
     .repair_block1{
         margin-left: 120px;
     }
-}
+
+    .measure{
+        display: none;
+    }
+
+    .measure_block3{
+        display: none;
+    }
+
+    .clients{
+        display: none;
+    }
+
+    .reviews{
+        display: none;
+    }
+
+    .contacts{
+        display: none;
+    }
+
+    .questions{
+        margin-top: 200px;
+        height: 842px;   
+        width: 400px;     
+        padding-left: 50%;   
+        margin-left: -155px;       
+    }
+
+    .container-questions{
+        width: 400px;   
+        height: 842px;                 
+    }
+
+    .questions_block2_flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .questions_block1,
+    .questions_block4,
+    .questions_block3,
+    .questions_block2_mobile{
+        margin-left: -155px;
+        text-align: left;
+    }
+
+    .questions_block1{
+        padding-top: 150px;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-right: -175px;
+    }
+
+    .questions_block3{
+        margin-right: -175px;
+    }
+    
+    .button_questions{
+        padding-left: 144px;
+        padding-right: 144px;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+    }
+     
+    .item_measure{
+        width: 340px; 
+        padding-right: 0px;
+        padding-left: 0px;           
+    }
+    
+    .contacts_block3{
+        display: contents;
+    }
+    
+    .footer{
+        display: none;
+    }
+    }
