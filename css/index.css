@@ -271,38 +271,38 @@ input{
 }
 
 .text-t{
-  font-family: 'NunitoSans Regular';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 21px;
-  color: #FFFFFF;  
+    font-family: 'NunitoSans Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;  
 }
 
 .item-5{
-  padding-top: 60px;
+    padding-top: 60px;
 }
 
 /******************для 3 блока control****************************************/
 .control{  
-  height: 1074px;
-  position: relative;
-  margin-top: -300px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 817px;
+    height: 1074px;
+    position: relative;
+    margin-top: -300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 817px;
 }
 
 .title-control{
-  margin: 0;
-  font-family: 'YesevaOne Regular';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
+    margin: 0;
+    font-family: 'YesevaOne Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .image_control{
@@ -344,6 +344,18 @@ input{
   padding-bottom: 92px;
 }
 
+
+.image_block2{
+  background-image: url('../files/figure3.png');
+  background-repeat: no-repeat;        
+  background-position: center;     
+  background-size: cover;   
+  margin-left: 350px;
+  margin-top: -260px;       
+  width: 100px;
+  height: 100px;
+}
+
 .image_block3{
   padding-bottom: 120px;
   text-align: center;
@@ -355,7 +367,7 @@ input{
 .control-overlay{
   height: 434px; 
   background-color: rgba(0, 0, 0, 0.7);
-  margin-top: -295px;
+  margin-top: -80px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -454,6 +466,10 @@ input{
 }
 
 /******************для 3 блока repair****************************************/
+.repair{
+  padding-left: 101px;
+  padding-right: 101px;
+}
 .repair_block1_p{
   font-family: 'YesevaOne Regular';
   font-style: normal;
@@ -562,10 +578,7 @@ input{
   color: #FFFFFF;
 }
 
-.repair{
-  padding-left: 101px;
-  padding-right: 101px;
-}
+
 
 /******************для 4 блока measure****************************************/
 .measure{  
@@ -1116,8 +1129,7 @@ input{
   padding-right: 260px;
   margin-left: -460px;
   margin-right: 460px;
-  padding-top: 30px;
-  
+  padding-top: 30px;  
  }
 
  .contacts-overlay{
