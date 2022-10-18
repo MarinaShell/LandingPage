@@ -183,12 +183,19 @@ input{
   padding-top: 107px;
   padding-left: 134px;
   padding-right: 134px;
-  position: relative;
+  position: relative;  
+}
+
+.project-container{
+  flex-direction: column;
+  margin-left: -117px;
+  padding-top: 30px;
 }
 
 .project-container{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   padding-top: 30px;
 }
 
@@ -293,7 +300,10 @@ input{
 .item-5{
     padding-top: 60px;
 }
-
+.right_slider,
+.left_slider{
+  display: none;
+}
 /******************для 3 блока control****************************************/
 .control{  
     height: 1074px;
@@ -302,6 +312,7 @@ input{
     margin-left: auto;
     margin-right: auto;
     width: 817px;
+    margin-top: 92px;
 }
 
 .title-control{
