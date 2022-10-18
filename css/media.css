@@ -9,17 +9,17 @@
     .control{
         height: 750px;
         margin-top: 0px;           
-        margin-left: 50%;                                 
+        margin-left: 50%;    
+        margin-right: -50%; 
+        transform: translate(-50%); 
+        width: 375px;                                       
     }
 
     .container-control{
         margin-top: 0px;         
         background-color: #181818;
         background-size: cover;
-        background-position: center;
-        width: 375px;    
-        margin-left: -150px;  
-        margin-right: 150px;  
+        background-position: center;     
     }
 
     .control_block2{
@@ -34,6 +34,10 @@
     .control-overlay{
         height: 207px;
         margin-top: 0px;        
+    }
+
+    .repair_container{
+        margin-left: -40px;
     }
 
     .repair_block2 {
@@ -54,10 +58,6 @@
         line-height: 19px;
         color: white;
         margin-top: -25px;
-    }
-
-    .repair{        
-        padding-left: 50%;
     }
 
     .image_block3{
@@ -152,16 +152,27 @@
 
     .repair{
         height: 2030px;
-        padding-left: 18px;
-        padding-right: 18px;         
+        width: 375px;     
+        margin-left: 50%;    
+        margin-right: -50%; 
+        transform: translate(-50%); 
+        width: 375px;                         
+    } 
+ 
+     .repair_block2{
+        padding-left: 20px; 
     }
-
+   
+    .repair_block3{
+        margin-left: -52px;              
+    }
+   
     .repair_block2_item{
-        width: 375px;        
+        width: 340px;        
       }
 
     .repair_block1{
-        margin-left: 80px;
+        text-align: center;
     }
 
     .measure{
@@ -187,9 +198,10 @@
     .questions{
         margin-top: 250px;
         height: 1142px;   
-        width: 375px;     
-        padding-left: 50%;   
-        margin-left: -155px;       
+        width: 375px;              
+        margin-left: 50%;    
+        margin-right: -50%; 
+        transform: translate(-50%); 
     }
 
     .container-questions{
@@ -237,9 +249,11 @@
     .contacts_mobile{
         margin-top: -1170px;
         height: 1242px;   
-        padding-left: 50%;   
         width: 340px; 
         padding-bottom: 0px;
+        margin-left: 50%;    
+        margin-right: -50%; 
+        transform: translate(-50%); 
     }
 
     .contacts_block3{
@@ -249,7 +263,8 @@
         background-position: center; 
         height: 255px;
         width: 345px;
-        margin-left: -140px;
+        margin-left:-2px;      
+        padding-right: 35px;
     }
 
     .contacts_block2_mobile{
@@ -264,7 +279,7 @@
         background-position: center; 
         height: 255px;
         width: 345px;
-        margin-left: -140px;       
+        margin-left: -2px;       
     }
 
     .contacts_block2_mobile_text{
@@ -279,13 +294,13 @@
         padding-top: 40px;
         font-size: 18px;
         line-height: 25px;
-        margin-left: -140px;
+        margin-left: 0px;
         margin-right: 0px;
         width: 340px;        
     }
 
     .contacts_block2{
-        padding-left: 40px;
+        padding-left: 0px;
         padding-right: 0px;
         padding-top: 20px;
     }
@@ -293,8 +308,8 @@
     .reviews_block1_p{
         font-size: 22px;
         line-height: 30px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 150px;
+        margin-right: -100px;
         margin-top: 0px;
     }
 
@@ -316,12 +331,99 @@
     }
 
     .home{
-        padding-left: 50%;
+        background-image: url('../files/image_4_7.png');
+        background-position: center;
+        width: 375px;  
+        height: 476px; 
+        margin-left: 50%;           
+        margin-right: -50%;
+        transform: translate(-50%);        
+        padding-top: 50px;
+        padding-left: 0px;                 
+        background-size: 375px 476px;
+        background-repeat: no-repeat;
+    }
+
+    .home-container{
+        width: 375px; 
+        margin-left: 50%;             
+        margin-right: -50%;
+        transform: translate(50%);  
+    }
+    .title{
+        margin-left: -40px;
+        margin-right: 30px;
+        font-size: 23px;
+        line-height: 31px;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+    .button-home-mobile{
+        padding-bottom: 20px;
+        margin-left: -40px; 
+        margin-right: 40px;      
+    }
+
+    .home-text{
+        font-size: 14px;
+        line-height: 19px;
+        margin-right: -80px;
+        margin-left: -40px;        
+    }
+
+    .home-overlay{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);        
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);        
+        width: 375px;  
+        height: 476px; 
+    }
+
+    .button-mobile{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .button-home_off{
+        padding-left: 90px;
+        padding-right: 90px; 
+        margin-left: 0px;            
+    }
+     .logo{
+        padding-left: 10px;
+        padding-right: 10px;
+     }
+
+    .button-home_off1{
+        padding-left: 104px;
+        padding-right: 104px; 
+        margin-left: 0px;            
+    }
+
+    .container{
+        max-width: 375px;
+        margin: 0 0;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .header{        
         width: 375px;       
+        margin-left: 50%;    
+        margin-right: -50%; 
+        transform: translate(-50%);    
     }
 
     .project{
-        padding-left: 50%;
+        left: 50%;        
+        margin-right: -50%;
+        transform: translate(-50%);
         width: 375px;     
         padding-top: 0px;
         height: 730px;
@@ -329,35 +431,17 @@
         background-color: #181818;
     }
 
-    .home-container,
-    .project-container{
-        margin-left: -150px;  
-        margin-right: 150px;  
-        background-position: center;
-    }
-
-    .title{
-        font-size: 23px;
-        line-height: 31px;
-        padding-right: 50px;
-    }
-
-    .home-text{
-        font-size: 14px;
-        line-height: 19px;
-        padding-right: 0px;        
-    }
-
     .project-container{
         flex-direction: column;
+        margin-left: -59px;
     }
 
     .title-project{
         text-align: center;
         font-size: 22px;
         line-height: 30px;
-        padding-right: 100px;
-        padding-left: 50px;
+        padding-right: 90px;
+        padding-left: 60px;
     }
 
     .project-navigation{

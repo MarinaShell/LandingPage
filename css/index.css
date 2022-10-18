@@ -99,6 +99,7 @@ input{
   position: relative;
 }
 
+
 .title{
   margin: 0;
   font-family: 'YesevaOne Regular','Courier New', Courier, monospace;
@@ -147,17 +148,27 @@ input{
   text-transform: uppercase;  
 }
 
-.button-home_on{
-  padding: 19px 41px;
+.button-mobile{
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  justify-content: left;
+}
+
+.button-home_off:hover{
   background: #E3B873;
-  border: 0;
+  border: 1px solid #E3B873;
+  box-shadow: none;
 }
 
 .button-home_off{
-  padding: 19px 21px;
-  margin-left: 20px;
+  padding: 19px 21px; 
   background: none;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #FFFFFF;  
+}
+
+.button-home-mobile{
+   margin-left: 30px;            
 }
 
 .text-yellow{
