@@ -330,7 +330,7 @@ input{
 .image_control{
   padding-bottom: 80px;
   text-align: center;
-  background-image: url('../files/figure1.png');
+  background-image: url('../files/figure1.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -368,7 +368,7 @@ input{
 
 
 .image_block2{
-  background-image: url('../files/figure3.png');
+  background-image: url('../files/figure3.svg');
   background-repeat: no-repeat;        
   background-position: center;     
   background-size: cover;   
@@ -682,7 +682,7 @@ input{
 }
 
 .measure_block1_li_img{
-  background-image: url('../files/figure6.png');
+  background-image: url('../files/figure6.svg');
   background-repeat: no-repeat;  
   background-size: auto;
   background-position: center;
@@ -791,7 +791,7 @@ input{
 }
 
 .measure_block3_img{
-  background-image: url('../files/figure7.png');
+  background-image: url('../files/figure7.svg');
   background-repeat: no-repeat;  
   background-size: auto;
   background-position: center; 
