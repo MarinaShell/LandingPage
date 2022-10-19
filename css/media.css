@@ -21,6 +21,9 @@
         background-size: cover;
         background-position: center;     
     }
+    .item-5{
+        display: none;
+    }
 
     .control_block2{
         width: 340px;   
