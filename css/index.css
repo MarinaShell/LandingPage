@@ -88,6 +88,18 @@ input{
   align-items: center;
 }
 
+.fontNunito{
+  font-family: 'NunitoSans Regular', 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fontYeseva{
+  font-family: 'YesevaOne Regular', 'Courier New', Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+
 /******************для 1 блока home*******************************************/
 .home{
   background-image: url('../files/image_4_3.jpg');
@@ -102,9 +114,9 @@ input{
 
 .title{
   margin: 0;
-  font-family: 'YesevaOne Regular','Courier New', Courier, monospace;
+  /*font-family: 'YesevaOne Regular','Courier New', Courier, monospace;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 40px;
   line-height: 53px;
   text-transform: uppercase;
@@ -127,9 +139,9 @@ input{
 }
 
 .home-text{
-  font-family: 'NunitoSans Regular','Courier New', Courier, monospace;
+/*  font-family: 'NunitoSans Regular','Courier New', Courier, monospace;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 22px;
   line-height: 36px;
   color: #FFFFFF;
@@ -216,9 +228,9 @@ input{
 }
 
 .project-text{
-  font-family: 'NunitoSans Regular';
+/*  font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 14px;
   line-height: 27px;
   padding-right: 50px;
@@ -227,9 +239,9 @@ input{
 
 .title-project{
   margin: 0;
-  font-family: 'YesevaOne Regular';
+ /* font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 27px;
   line-height: 37px;
   letter-spacing: -0.07em;
@@ -276,9 +288,9 @@ input{
 }
 
 .text-p{
-  font-family: 'YesevaOne Regular';
+ /* font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -287,9 +299,9 @@ input{
 }
 
 .text-t{
-    font-family: 'NunitoSans Regular';
+  /*  font-family: 'NunitoSans Regular';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400;*/
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF;  
@@ -315,9 +327,9 @@ input{
 
 .title-control{
     margin: 0;
-    font-family: 'YesevaOne Regular';
+   /* font-family: 'YesevaOne Regular';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400;*/
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -354,9 +366,9 @@ input{
 
 .title_block3{
   text-align: center;
-  font-family: 'NunitoSans Regular';
+ /* font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 18px;
   line-height: 37px;
   text-align: center;
@@ -399,9 +411,9 @@ input{
 }
 
 .text-flex-p{
-  font-family: 'NunitoSans Regular';
+/*  font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 13px;
   line-height: 21px;  
   color: rgba(54, 54, 54, 0.5); 
@@ -409,9 +421,9 @@ input{
 }
 
 .text-flex{
-  font-family: 'NunitoSans Regular';
+/*  font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 14px;
   line-height: 23px;
   color: #363636; 
@@ -468,9 +480,9 @@ input{
 }
 
 .button-flex{
-  font-family: 'NunitoSans Regular';
+/*  font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 13px;
   line-height: 27px;
   text-align: center;
@@ -491,9 +503,9 @@ input{
   padding-right: 101px;
 }
 .repair_block1_p{
-  font-family: 'YesevaOne Regular';
+/*  font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -559,18 +571,18 @@ input{
 }
 
 .repair_block3_item_p{
-  padding-left: 20px;
+ /* padding-left: 20px;
   font-family: 'YesevaOne Regular';
-  font-style: normal;
+  font-style: normal;*/
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;  
   color: #363636;
 }
 .repair_block3_item_li{
-  font-family: 'NunitoSans Regular';
+  /*font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 13px;
   line-height: 27px;
   color: #959595; 
@@ -589,9 +601,9 @@ input{
   padding: 17px 22px; 
   background: #E3B873;
   border: 0;
-  font-family: 'YesevaOne Regular';
+ /* font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -645,9 +657,9 @@ input{
 }
 
 .measure_block1_li_text{
-  font-family: 'NunitoSans Regular';
+ /* font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 14px;
   line-height: 19px;
   color: #363636; 
@@ -690,9 +702,9 @@ input{
 }
 
 .measure_block1_li_img_text{
-  font-family: 'YesevaOne Regular';
+ /* font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 18px;
   line-height: 25px;
   text-align: center;
@@ -702,9 +714,9 @@ input{
 }
 
 .text_flex_p_measure{
-  font-family: 'NunitoSans Regular';
+/*  font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 13px;
   line-height: 21px;  
   color: rgba(255, 255, 255, 0.5);
@@ -712,18 +724,18 @@ input{
 }
 
 .text_measure{
-  font-family: 'NunitoSans Regular';
+ /* font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 14px;
   line-height: 163.68%;
   color: #FFFFFF;
 }
 
 .text_flex_measure{
-  font-family: 'NunitoSans Regular';
+ /* font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 14px;
   line-height: 23px;
   color: white; 
@@ -732,9 +744,9 @@ input{
 }
 
 .measure_block2_text{
-  font-family: 'NunitoSans Regular';
+ /* font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 18px;
   line-height: 26px;
   text-align: center;
@@ -746,9 +758,9 @@ input{
 }
 
 .button_flex_measure{
-  font-family: 'NunitoSans Regular';  
+ /* font-family: 'NunitoSans Regular';  
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 13px;
   line-height: 21px;
   text-align: center;
@@ -777,9 +789,9 @@ input{
 }
 
 .measure_block3_text{
-  font-family: 'NunitoSans Regular';
+/*  font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 18px;
   line-height: 26px;
   color: #E3B873;
@@ -830,9 +842,9 @@ input{
 }
 
 .reviews_block1_p{
-  font-family: 'YesevaOne Regular';
+/*  font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 27px;
   line-height: 37px;
   text-transform: uppercase;
@@ -938,9 +950,9 @@ input{
 }
 
 .clients_block1_p{
-  font-family: 'YesevaOne Regular';
+/*  font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -949,9 +961,9 @@ input{
 }
 
 .clients_block1_text{
-  font-family: 'NunitoSans Regular';
+/*  font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 18px;
   line-height: 29px;
   text-align: center;  
@@ -971,9 +983,9 @@ input{
 
 .text_clients_block2{
   padding-right: 90px;
-  font-family: 'NunitoSans Regular';
+/*  font-family: 'NunitoSans Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 13px;
   line-height: 180%;
   color: #959595;
@@ -995,9 +1007,9 @@ input{
 .clients_block2_div_text{
   padding-right: 120px;
   padding-left: 20px;
-  font-family: 'YesevaOne Regular';
+ /* font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 18px;
   line-height: 23px;
   color: #181818;
@@ -1012,9 +1024,9 @@ input{
   padding-right: 10px;
   padding-bottom: 5px;
   color:white;
-  font-family: 'YesevaOne Regular';
+ /* font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 17px;
   line-height: 24px;
   width:320px;
@@ -1081,9 +1093,9 @@ input{
 }
 
 .questions_block1{
-  font-family: 'YesevaOne Regular';
+ /*font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -1123,9 +1135,9 @@ input{
  }
 
 .contacts_block1{
-  font-family: 'YesevaOne Regular';
+ /* font-family: 'YesevaOne Regular';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400;*/
   font-size: 20px;
   line-height: 28px;
   text-align: center;
