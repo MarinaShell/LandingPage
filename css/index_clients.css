@@ -10,11 +10,11 @@
   padding-right: 101px; 
 }
 
-.container-clients_block1{
+.container-clients-block1{
   padding-top: 0px; 
 }
 
-.clients_block1_p{
+.container-clients-block1_p{
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -22,7 +22,7 @@
   color: #181818;
 }
 
-.clients_block1_text{
+.container-clients-block1_text{
   font-size: 18px;
   line-height: 29px;
   text-align: center;  
@@ -32,7 +32,7 @@
   padding-right: 420px;
 }
 
-.container-clients_block2{
+.container-clients-block2{
   display: flex;
   flex-direction: row;
   justify-content: space-between;

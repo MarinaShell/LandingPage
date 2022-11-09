@@ -9,7 +9,7 @@
     margin-top: -300px;
 }
 
-.title-control{
+.container-control_title{
     margin: 0;
     font-size: 20px;
     line-height: 28px;
@@ -18,7 +18,7 @@
     color: #FFFFFF;
 }
 
-.image_control{
+.container-control_image{
   padding-bottom: 80px;
   text-align: center;
   background-image: url('../files/figure1.svg');
@@ -26,7 +26,7 @@
   background-position: center;
 }
 
-.control_block2{
+.control-block2{
   padding-top: 80px;
   padding-bottom: 80px;
   text-align: center;
@@ -36,26 +36,8 @@
   height: 434px; 
 }
 
-.image_block2{
-  padding-top: 65px;
-}
 
-.control_block3{
-  padding-left: 80px;
-  padding-right: 80px;  
-}
-
-.title_block3{
-  text-align: center;
-  font-size: 18px;
-  line-height: 37px;
-  text-align: center;
-  color: #363636;
-  padding-bottom: 92px;
-}
-
-
-.image_block2{
+.control-block2_image{
   background-image: url('../files/figure3.svg');
   background-repeat: no-repeat;        
   background-position: center;     
@@ -64,17 +46,11 @@
   margin-top: -260px;       
   width: 100px;
   height: 100px;
+  padding-top: 65px;
 }
 
-.image_block3{
-  padding-bottom: 120px;
-  text-align: center;
-  background-image: url('../files/figure2.png');
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-.control-overlay{
+.control-block2_overlay{
   height: 434px; 
   background-color: rgba(0, 0, 0, 0.7);
   margin-top: -80px;
@@ -82,7 +58,30 @@
   margin-right: 0px;
 }
 
-.flex_control {
+
+.control-block3{
+  padding-left: 80px;
+  padding-right: 80px;  
+}
+
+.control-block3_title{
+  text-align: center;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+  color: #363636;
+  padding-bottom: 92px;
+}
+
+.control-block3_image{
+  padding-bottom: 120px;
+  text-align: center;
+  background-image: url('../files/figure2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.control-block4{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -161,6 +160,6 @@
   border: 0; 
 }
 
-.item-3_flex{
+.control-block4_item3-flex{
   padding-top: 15px;
 }
