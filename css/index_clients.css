@@ -1,0 +1,110 @@
+/******************для 7 блока clients****************************************/
+.clients{
+  
+  padding-top: 100px;
+}
+
+.container-clients{
+ 
+  padding-left: 103px;
+  padding-right: 101px; 
+}
+
+.container-clients_block1{
+  padding-top: 0px; 
+}
+
+.clients_block1_p{
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.clients_block1_text{
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;  
+  color: #363636;
+  padding-top: 20px;
+  padding-left: 423px;
+  padding-right: 420px;
+}
+
+.container-clients_block2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.text_clients_block2{
+  padding-right: 90px;
+  font-size: 13px;
+  line-height: 180%;
+  color: #959595;
+  padding-bottom: 20px;
+}
+
+.button_clients_block2{
+  padding-right: 0px; 
+}
+
+.clients_block2_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.clients_block2_div_text{
+  padding-right: 120px;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 23px;
+  color: #181818;
+  padding-top: 15px;
+}
+
+.button_clients_block2{
+  background: #E3B873;
+  border: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  color:white;
+  font-size: 17px;
+  line-height: 24px;
+  width:320px;
+  height:50px;
+  margin-bottom: -20px;  
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.button_clients_flex{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -12px;
+}
+
+.button_clients_block2_div_img{
+  margin-left: -10px; 
+}
+
+.button_clients_block2_div_img2{
+  padding-left: 20px; 
+  padding-right: 20px; 
+  margin-top:-10px;
+  margin-bottom:-12px;
+}
+
+.button_clients_block2_div_txt{
+  padding-top: 5px;
+  padding-left: 10px; 
+}

@@ -1,0 +1,115 @@
+/******************для 2 блока project****************************************/
+.project{
+  background-color: #131313;
+  background-size: cover;
+  height: 1074px;
+  padding-top: 107px;
+  padding-left: 134px;
+  padding-right: 134px;
+  position: relative;  
+}
+.project-container_content{
+  margin-bottom: -0px;
+}
+
+.project-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+
+}
+
+.project-container-right{
+  background-image: url('../files/image_2_1.png');
+  height: 483px;
+  width: 679px;    
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project-container-left{
+  padding-right:0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  height: 483px;
+  width: 442px;  
+}
+
+.project-text{
+  font-size: 14px;
+  line-height: 27px;
+  padding-right: 50px;
+  color: #FFFFFF;
+}
+
+.title-project{
+  margin: 0;
+   font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #E3B873;
+  padding-right: 350px;
+  position: relative;
+}
+
+.project-navigation{
+   display: flex;
+   flex-direction: row-reverse;
+   list-style: none;   
+   padding-right: 0px;
+   position: relative;
+}
+
+.project-navigation__item{
+  margin-right: 47px;
+}
+
+.project-navigation__item a{
+  font-family: 'YesevaOne Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color:rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  padding: 5px;
+}
+
+.project-navigation__item a:hover{
+  color: #E3B873;
+  padding-bottom: 6px;
+  border-bottom: 1.1px solid #E3B873;  
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 150px 210px;
+  grid-template-rows: 110px 110px 120px;
+}
+
+.text-p{
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;  
+  margin-bottom: 7px;  
+}
+
+.text-t{
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;  
+}
+
+.item-5{
+    padding-top: 60px;
+}
+.right_slider,
+.left_slider{
+  display: none;
+}

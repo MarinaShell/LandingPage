@@ -1,0 +1,173 @@
+/******************для 4 блока measure****************************************/
+.measure{  
+  height: 726px;
+  padding-top: 50px;
+ 
+}
+
+.measure-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 725px;
+  background-image: url('../files/image8.png');
+  background-repeat: no-repeat;  
+  background-size: auto;
+  background-position: left;  
+  
+}
+
+.measure_block1{
+  padding-top: 150px;
+  padding-left: 150px;
+  padding-right: 120px;
+}
+
+.measure_block2{
+  background-color: #131313;
+  background-size: auto;
+  background-position: center;
+  height: 509px;
+  width: 506px;
+  margin-left: -250px;
+  margin-right: 100px;
+  margin-top: 150px;
+  margin-bottom: 154px;
+  padding-left: 40px;
+}
+
+.measure_block1_li{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;  
+}
+
+.measure_block1_li_text{
+  font-size: 14px;
+  line-height: 19px;
+  color: #363636; 
+  padding-left: 10px;
+  padding-right: 290px;  
+}
+
+.item2_li{
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.item1_li{
+  margin-left: 10px;
+}
+.measure_block1_lu{
+  list-style: none;     
+  margin-left: 50px;
+  text-align: left;
+}
+
+.measure_block1 li {
+  margin-bottom: 75px; /* Расстояние снизу */  
+ }
+
+
+.item_measure{
+  padding-bottom: 22px;
+  padding-right: 40px;
+}
+
+.measure_block1_li_img{
+  background-image: url('../files/figure6.svg');
+  background-repeat: no-repeat;  
+  background-size: auto;
+  background-position: center;
+  height: 88px;
+  width: 88px;  
+  margin-top: -20px;
+}
+
+.measure_block1_li_img_text{
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;   
+  padding-left: 3px;
+  padding-top: 9px;
+}
+
+.text_flex_p_measure{
+  font-size: 13px;
+  line-height: 21px;  
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;  
+}
+
+.text_measure{
+  font-size: 14px;
+  line-height: 163.68%;
+  color: #FFFFFF;
+}
+
+.text_flex_measure{
+  font-size: 14px;
+  line-height: 23px;
+  color: white; 
+  background-color:  #131313;
+  border: 0px;
+}
+
+.measure_block2_text{
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.button_flex_measure{
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;  
+  color: #FFFFFF;
+  padding: 10px 25px;
+  background-color: #E3B873;
+  border: 0;  
+}
+
+.checkbox-measure{
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+.button_flex_measure_div{
+  padding-top: 30px;
+  padding-left: 180px;  
+}
+
+.measure_block3{
+  margin-top:30px;
+  padding-left: 920px;
+  padding-right: 132px;
+  display: flex;
+}
+
+.measure_block3_text{
+  font-size: 18px;
+  line-height: 26px;
+  color: #E3B873;
+  padding-left: 5px;
+  padding-right: 55px;
+  margin-top: 20px;
+}
+
+.measure_block3_img{
+  background-image: url('../files/figure7.svg');
+  background-repeat: no-repeat;  
+  background-size: auto;
+  background-position: center; 
+  height: 113px; 
+  width: 113px; 
+  padding-left: 0px;
+}

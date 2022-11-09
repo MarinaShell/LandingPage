@@ -1,0 +1,57 @@
+/******************для 8 блока questions***************************************/
+.questions{
+  margin-top: -1150px;
+  height: 442px;
+  margin-bottom: 708px;
+}
+
+.container-questions{
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width:883px;
+  background-color: #181818;
+  background-size: cover;
+  background-position: center;  
+}
+
+.questions_input{
+  background-color: #181818;
+}
+
+.container-questions_in{
+  padding-left: 182px;
+  padding-right: 182px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.questions_block2_flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.questions_block1{
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.questions_block3{
+  text-align: center;
+}
+
+.questions_block4{
+  padding-top: 40px; 
+  text-align: center; 
+}
+
+.button_questions{
+  padding-left: 84px;
+  padding-right: 84px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}

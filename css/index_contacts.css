@@ -1,0 +1,67 @@
+/******************для 9 блока contacts***************************************/
+.contacts{
+  height: 954px;
+  margin-top: 320px;
+  background-image: url('../files/image_7_2.png');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center; 
+}
+
+
+.container-contacts{
+    height: 954px;
+ }
+
+.contacts_block1{
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E3B873;
+  padding-left: 425px;
+  padding-right: 426px;
+  padding-top: 240px;
+}
+
+.contacts_block2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 680px;
+  padding-right: 680px;
+  padding-top: 20px;
+ }
+
+ .contacts_block2_div{
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+
+ .contacts_block3{
+  padding-left: 50%;
+  padding-right: 260px;
+  margin-left: -460px;
+  margin-right: 460px;
+  padding-top: 30px;  
+ }
+
+ .contacts-overlay{
+  content: '';
+  height: 954px;
+  margin-top: -954px;
+  padding-left: 425px;
+  padding-right: 426px;
+  padding-top: 240px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.footer{
+  padding-top: 20px;
+  height: 133px; 
+}
+
+.header-navigation a:hover{
+  color:#E3B873;
+}
+

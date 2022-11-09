@@ -1,0 +1,118 @@
+/******************для 4 блока revies*****************************************/
+.reviews{
+  margin-top: 190px;
+  padding-top: 0px;
+  background-image: url('../files/image_5_1.png');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;    
+}
+
+.container_reviews{
+  width:1440px;
+  height: 864px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+.reviews-overlay{
+  content: '';
+  height: 864px;
+  margin-top: -864px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.reviews_block1{
+  padding-left: 99px;
+  padding-top: 138px;
+  padding-right: 200px;
+}
+
+.reviews_block1_p{
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
+  padding-right: 0px;
+}
+
+.reviews_block1_ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.reviews_block1_ul a{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #FFFFFF;
+  text-decoration: none;  
+}
+.reviews_block1_ul a:hover{
+  text-decoration:underline; 
+  color: #E3B873;
+}
+
+.reviews_block1_ul li {
+  margin-bottom: 10px; /* Расстояние снизу */
+ }
+
+ .reviews_block1_nav{
+  padding-top: 20px;
+}
+
+.reviews_block2{
+  margin-top: -50px;
+  height: 800px;
+  padding-right: 43px;
+}
+
+.reviews_block3{
+  margin-top: -100px;
+  height: 800px;
+  padding-right: 102px;  
+}
+
+
+.reviews_block2_img1{
+  background-image: url('../files/image_5.png');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
+  height: 558px;
+  width: 354px;
+  margin-bottom: 40px;
+}
+
+.reviews_block2_img2{
+  background-image: url('../files/image_5_1_1.png');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 354px;  
+}
+
+.reviews_block3_img1{
+  background-image: url('../files/image_5_3.png');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
+  height: 275px;
+  width: 354px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.reviews_block3_img2{
+  background-image: url('../files/image_5_2.png');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
+  height: 623px;
+  width: 354px;
+}
+

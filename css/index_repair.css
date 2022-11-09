@@ -1,0 +1,101 @@
+/******************для 3 блока repair****************************************/
+.repair{
+  padding-left: 101px;
+  padding-right: 101px;
+}
+.repair_block1_p{
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;  
+  color: #181818;
+  text-align: center;
+  padding-top: 120px;
+}  
+
+.repair_block1_img{
+  text-align: center;
+}
+
+.repair_block2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 706px;
+  padding-top: 30px;
+  padding-left: 103px;
+  padding-right: 0px;
+}
+
+.repair_block2_item{
+  width: 392px;
+  height: 421px;
+}
+
+.repair_block2_item1{
+  text-align: center;
+  background-image: url('../files/image.jpg');
+  background-repeat: no-repeat;  
+}
+
+.repair_block2_item2{
+  text-align: center;
+  background-image: url('../files/image_3.jpg');
+  background-repeat: no-repeat;  
+}
+
+.repair_block2_item3{
+  text-align: center;
+  background-image: url('../files/image_3_1.jpg');
+  background-repeat: no-repeat;  
+}
+/**/
+.repair_block3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 286px;
+  margin-top: -380px;
+  padding-left: 134px;
+  padding-right: 31px;  
+}
+
+.repair_block3_item{
+  background-color: #ffffff;
+  height: 286px;
+  width: 330px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  padding-left: 20px;
+}
+
+.repair_block3_item_p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;  
+  color: #363636;
+}
+.repair_block3_item_li{
+  font-size: 13px;
+  line-height: 27px;
+  color: #959595; 
+}
+
+.repair_block4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -20px;
+  padding-left: 134px;
+  padding-right: 132px;  
+}
+
+.button_repair_block4{
+  padding: 17px 22px; 
+  background: #E3B873;
+  border: 0;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+

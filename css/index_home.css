@@ -1,0 +1,80 @@
+/******************для 1 блока home*******************************************/
+.home{
+  background-image: url('../files/image_4_3.jpg');
+  background-size: cover;
+  height: 707px;
+  padding-top: 194px;
+  padding-left: 134px;
+  padding-right: 630px;
+  position: relative;
+}
+
+
+.title{
+  margin: 0;
+  font-size: 40px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.home-overlay{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.home-container{
+  position: relative;
+  z-index: 1;
+}
+
+.home-text{
+  font-size: 22px;
+  line-height: 36px;
+  color: #FFFFFF;
+  padding-top: 19px;
+  padding-left: 0px;
+  padding-right: 170px;
+}
+
+.button-home{
+  color: white;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;  
+}
+
+.button-mobile{
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  justify-content: left;
+}
+
+.button-home_off:hover{
+  background: #E3B873;
+  border: 1px solid #E3B873;
+  box-shadow: none;
+}
+
+.button-home_off{
+  padding: 19px 21px; 
+  background: none;
+  border: 1px solid #FFFFFF;  
+}
+
+.button-home-mobile{
+   margin-left: 30px;            
+}
+
+.text-yellow{
+  color: #E3B873;
+}

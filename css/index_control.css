@@ -1,0 +1,166 @@
+/******************для 3 блока control****************************************/
+.control{  
+    height: 1074px;
+    position: relative;
+    margin-top: -300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 817px;
+    margin-top: -300px;
+}
+
+.title-control{
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.image_control{
+  padding-bottom: 80px;
+  text-align: center;
+  background-image: url('../files/figure1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.control_block2{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-image: url('../files/image_6.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 434px; 
+}
+
+.image_block2{
+  padding-top: 65px;
+}
+
+.control_block3{
+  padding-left: 80px;
+  padding-right: 80px;  
+}
+
+.title_block3{
+  text-align: center;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+  color: #363636;
+  padding-bottom: 92px;
+}
+
+
+.image_block2{
+  background-image: url('../files/figure3.svg');
+  background-repeat: no-repeat;        
+  background-position: center;     
+  background-size: cover;   
+  margin-left: 350px;
+  margin-top: -260px;       
+  width: 100px;
+  height: 100px;
+}
+
+.image_block3{
+  padding-bottom: 120px;
+  text-align: center;
+  background-image: url('../files/figure2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.control-overlay{
+  height: 434px; 
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: -80px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.flex_control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text-flex-p{
+  font-size: 13px;
+  line-height: 21px;  
+  color: rgba(54, 54, 54, 0.5); 
+  margin-bottom: -3px;  
+}
+
+.text-flex{
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636; 
+  border: 0px;
+}
+
+.text-checkbox{
+  font-family: 'NunitoSans Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 163.68%;
+  color: #181818;
+}
+
+.image-flex{
+  padding-bottom: 12px;
+  text-align: center;
+  background-image: url('../files/figure4.png');
+  background-repeat: repeat-x;  
+}
+
+.first-checkbox{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.label {
+  cursor: pointer;
+}
+
+.checkbox{
+  display: none;
+}
+
+.fake{
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background: #E3B873;
+  color: #fff;
+  justify-content: center;
+}
+
+.fake::before{
+  content:"\2714";
+  opacity: 0;
+  transition: .2s;
+}
+
+.checkbox:checked + .fake::before{
+  opacity: 1;
+}
+
+.button-flex{
+  font-size: 13px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px 75px;
+  background-color: #E3B873;
+  border: 0; 
+}
+
+.item-3_flex{
+  padding-top: 15px;
+}
